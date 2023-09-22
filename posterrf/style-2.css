@@ -1,0 +1,49 @@
+/* Version 2: Full Width and Typographic */
+
+.Text1 {
+/* This makes the container full width */
+    width: 100%;
+}
+
+.Text1{
+    background: lightgreen;
+    width:1340px;
+    height:600px;
+    position:relative;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    text-align: center;
+    vertical-align: bottom;
+    text-decoration: none;
+    background-position: center;
+    margin: auto;
+    display: block;
+    position: relative;
+
+    border: 10px solid rgb(22, 165, 48);
+    border: 4mm ridge rgba(14, 209, 134, 0.6);
+    margin: auto;
+    margin-top: calc(50vh - 300px);
+   }
+  
+  .Text2{
+  color: blue;
+  text-align: center;
+  font-size: 50px;
+  position: absolute;
+ top: 80%; 
+  left: 25%;
+  font-family:'Times New Roman', Times, serif;
+
+}
+
+
+img{
+    max-width: 70%;
+    max-height: 70%;
+    position:center;
+    visibility: hidden;
+  
+    
+  }
+  
