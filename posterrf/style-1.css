@@ -2,12 +2,10 @@
 
 
 .container {
-  background: rgb(218, 156, 177);
+  background: rgb(243, 46, 147);
   width:500px;
   height:730px;
   position:relative;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 30px;
   text-align: center;
   vertical-align: bottom;
   text-decoration: none;
@@ -15,33 +13,66 @@
   margin: auto;
   display: block;
   position: relative;
-  top:90px;
-  border: 10px solid salmon;
-  border: 4mm ridge rgba(238, 18, 128, 0.6);
-  margin: auto;
-  margin-top: calc(50vh - 300px);
+  top:-45px;
   
+  margin: auto;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #f7ff1a;
+  margin-top: calc(50vh - 300px);
+
   
  }
 
-.Text1{
-color: rgb(0, 0, 0);
-text-align: center;
-margin: 0;
+ @font-face {
+  font-family: 'anilez';
+  src: url(fonts/anilez);
+  }
+
+.Title{
+  font-family: 'anilez';
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  transition: 900ms;
+
+}
+ 
+.Festival{
+  font-family: 'anilez';
+  font-size: 50px;
+  color: white;
+  margin-top: -30px;
+  transition: 900ms;
 }
 
+.Text1{
+color:rgb(255, 255, 255);
+text-align: center;
+font-size: 19px;
+margin-top: -5%;
+font-family: 'Courier New', Courier, monospace;
+transition: 900ms;
+
+}
+
+
 .Text2{
-  color: rgb(164, 115, 213);
-  bottom: 10%;
-  right: 10%;
+  color: rgb(255, 255, 255);
+  bottom: 2%;
+  right: 40px;
 position: absolute;
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+font-size: 25px;
+font-family: 'anilez';
+transition: 200ms;
 }
 
 img{
-  max-width: 70%;
-  max-height: 70%;
-  position:center;
+  max-width: 100%;
+  max-height: 100%;
+  position:absolute;
+  bottom: 50px;
+  left: .10px;
 
   
 }
@@ -58,5 +89,42 @@ img{
 
   body {
     
-    background-color: #f5d49f;
+    background-image:url(corkboard.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
   }
+  
+  .boton{
+    font-family: 'anilez';
+    font-size: 40px;
+    position:relative;
+    right: -40%;
+    color:white;
+  
+  }
+  
+  a:visited {color: white;
+  }
+
+
+.Text1:hover {
+  transform: rotateY(60deg);
+}
+
+.Title:hover {
+  transform: rotateY(60deg);
+}
+
+.Festival:hover {
+  transform: rotate(20deg);
+}
+
+.Text2:hover {
+  transform: rotate(15deg);
+}
+
+
+
+
+
