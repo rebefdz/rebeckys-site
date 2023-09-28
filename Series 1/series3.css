@@ -1,0 +1,72 @@
+body{
+    background-image:url(sprinkl.jpeg);
+    background-size: cover;
+    background-size: contain;
+    background-repeat:no-repeat;
+    width: 900px;
+    height: 900px;
+
+}
+
+  @font-face {
+    font-family: 'brushed';
+    src: url(Chakie.ttf);
+    }
+
+    
+.text1{ font-size: 90px;
+    font-family:chakie;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 90px;
+    transition: 1400ms;
+
+}
+
+
+
+
+    .text2{
+        font-size: 70px;
+        font-family:chakie;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        margin-top: 140px;
+        transition: 1400ms;
+    }
+
+    .text3{
+        font-size: 50px;
+        font-family:chakie;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        transition: 1400ms;
+    }
+
+   img.spoon{
+    height: 600px;
+    width: 600px;
+    margin-top: -310px;
+    margin-left: 800px;
+    position: absolute;
+
+  }
+  .spoon{
+    width: 100px;
+  height: 100px;
+ animation-name: inherit;
+  animation-duration: 4s;
+  transition:900ms;
+  }
+
+  .text1:hover{
+    transform: rotate(100deg);
+  }
+  
+.text2:hover {
+    transform: rotate(-100deg);
+}
+
+.text3:hover{
+    transform: rotate(100deg);
+}

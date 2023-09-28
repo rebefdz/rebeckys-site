@@ -1,0 +1,43 @@
+body {
+    /*background-size: contain;*/
+    background-color:linear-gradient(rgb(248, 61, 189),rgb(255, 152, 9));
+   /* background-repeat: no-repeat;
+    background-position: cover;*/
+   /* width: 100px;
+    height: 700px;*/
+   /* background-image: url(mexico.png);*/
+  }
+   
+
+
+
+
+
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition:900ms;
+   margin-left: 290%;
+
+}
+
+.Texto1 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transition:900ms;
+    margin-left: 290%;
+    text-align: justify;
+
+    
+}
+
+.Texto1:hover{
+    transform:skewY(90deg);
+}
+
+h1:hover{
+    transform: rotateY(90deg);
+}
+

@@ -1,0 +1,109 @@
+
+    body {
+      background-size: contain;
+      background-repeat:no-repeat;
+      width: 100px;
+      height: 700px;
+      background-image:url(italy.png);
+      background-size: cover;
+    }
+     
+    
+     @font-face {
+      font-family: 'anilez';
+      src: url(fonts/anilez);
+      }
+    
+    .Title{
+      font-family:'anilez';
+      font-size: 80px;
+      color: rgb(255, 255, 255);
+      margin-top: 120%;
+      margin-left: 90%;
+      text-align:center;
+      transition: 1000ms;
+    }
+
+    
+    
+    
+    .Text2{
+      color: rgb(255, 255, 255);
+      bottom: 82%;
+      left: 990px;
+    position: absolute;
+    text-align: right;
+    font-size: 24px;
+    font-family: 'anilez';
+    transition:  1000ms;
+    }
+    
+    
+    .Text1{
+      color: rgb(255, 255, 255);
+      right: 40px;
+    position:absolute;
+    margin-left: 60%;
+    text-align: right;
+    font-size: 40px;
+    bottom: 4%;
+    font-family:'Courier New', Courier, monospace;
+    transition:  1000ms;
+    }
+    
+    img{
+      max-width: 50%;
+      max-height: 50%;
+      position:absolute;
+      bottom:-35px;
+      left: .10px;
+    
+    }
+    
+    
+      /*   I want my height to be a total of 700px, but there's a 20px padding all around, so I'm giving it a height of 660px (700 - 20 - 20) */
+     
+      /*   This makes it horizontally centered */
+      /*   It only works on "display:block" elements */
+        
+      /*   This makes it centered vertically */
+      /*   It's 50% of the height, and subtracting half of the total height of the poster (which is 700px)'*/  
+     
+    
+     
+      
+      .boton {
+        font-family: 'anilez';
+        font-size: 20px;
+        position:relative;
+        right: -570%;
+        bottom: -400px;;
+        color:white;
+      
+      }
+      
+      a:visited {color: white;
+      }
+    
+    
+    .Text1:hover {
+      letter-spacing: 90px;
+    }
+    
+    .Title:hover {
+      letter-spacing: 420px;
+    }
+    
+    .Festival:hover {
+      letter-spacing: 90px;
+    }
+    
+    .Text2:hover {
+      letter-spacing: 10px;
+    }
+    
+    
+    
+    
+    
+    
