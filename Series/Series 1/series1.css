@@ -1,0 +1,77 @@
+body{
+    text-align: left;
+    background-image:linear-gradient(rgb(47, 47, 204),rgb(233, 24, 184));
+width: 60px;
+height: 70px;
+}
+
+@font-face{
+    font-family:'monoton-regular';
+    src: url(Monoton-Regular.ttf);
+}
+
+.Jonas{
+    font-size: 90px;
+    font-family:'monoton-regular';
+    position:relative;
+   left: 50px;
+    top: 100px; 
+    transition:  900ms;
+}
+
+  .date1{
+    font-size: 30px;
+    font-family:'monoton-regular';
+    position:absolute;
+    left: 50px;
+    top: 520px;
+    transition: 900ms;
+    color: white;
+  }
+  
+ .place1{
+    font-size: 50px;
+    color: white;
+    font-family:'monoton-regular';
+  bottom: 90px;
+  right: 45px;
+    position: absolute;
+    transition:  900ms;
+ }
+
+  .Cp{
+    font-size: 40px;
+    color: white;
+    font-family:'monoton-regular';
+bottom: 60px;
+right: 50px;
+    position: absolute;
+    text-align: right;
+    transition:  900ms;
+  }
+
+  .Jonas:hover {
+    letter-spacing: 90px;
+  }
+  
+  .Cp:hover{
+    letter-spacing: 100px;
+  }
+
+  .place1:hover{
+    letter-spacing: 100px;
+  }
+
+  .date1:hover{
+    transform: rotate(200deg);
+  }
+
+  #jonasb{
+    max-width: 60%;
+    max-height: 60%;
+    bottom: 90px;
+    position: absolute;
+    right: 5px;
+    bottom: 260px;
+
+  }

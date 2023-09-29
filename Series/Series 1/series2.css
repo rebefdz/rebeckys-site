@@ -1,0 +1,79 @@
+body{
+    text-align: center;
+    background-image:  linear-gradient(rgb(215, 40, 14),rgb(233, 132, 24));
+    
+}
+
+
+@font-face {
+    font-family:'anilezcopy';
+    src: url(Anilez\ copy.otf);
+}
+
+
+.camp{
+    font-size: 90px;
+    font-family: 'anilez';
+    color: rgb(255, 255, 255);
+   right: 20px;
+    bottom: -90px;
+    position: absolute;
+    transition:  900ms;
+}
+
+ .date2{
+
+    font-size: 100px;
+    font-family: 'anilez';
+    color: white;
+    left: 55%;
+    top: 160px;
+    position: absolute;
+    transition:  900ms;
+  }
+
+  
+  .hours2{
+    font-size: 30px;
+    font-family: 'anilez';
+    color: white;;
+    top: 90px;
+  left: 13%;
+    position: absolute;
+    transition:  900ms;
+  }
+
+  .Co{
+    font-size: 30px;
+    font-family: 'anilez';
+    color: white;
+    top: 50px;
+  left: 3%;
+  position: absolute;
+    transition:  900ms;
+  }
+
+  .camp:hover{
+    transform: rotate(200deg);
+  }
+
+  .hours2:hover{
+    transform: rotate(200deg);
+  }
+
+  .date2:hover{
+    transform: rotate(200deg);
+  }
+
+  .Co:hover{
+    transform: rotate(200deg);
+  }
+
+#Demi{
+    width: 600px;
+    height: 550px;
+    position: absolute;
+    left: 10px;
+    bottom: 8px;
+}
+  

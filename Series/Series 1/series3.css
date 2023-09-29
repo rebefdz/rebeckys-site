@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+}
+
+.miley{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    position:relative;
+    text-align: center;
+    top: 90px;
+}
+
+.date3{
+    font-size: 90px;
+    font-family: 'Times New Roman', Times, serif;
+    position:relative;
+    left: 25%;
+    top: 90px;
+}
+
+
+.hours3{
+    font-size: 90px;
+    font-family: 'Times New Roman', Times, serif;
+  top: 20px;
+  left: 13%;
+    position: relative;
+}
+
+.AA{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+bottom: 70px;
+  left: 33%;
+    position: relative;
+}
