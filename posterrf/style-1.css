@@ -100,10 +100,12 @@ img{
     position:relative;
     right: -40%;
     color:white;
+    text-decoration: none;
   
   }
   
   a:visited {color: white;
+    text-decoration: none;
   }
 
 
