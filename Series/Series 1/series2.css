@@ -1,8 +1,12 @@
 body{
     text-align: center;
-    background-image:  linear-gradient(rgb(215, 40, 14),rgb(233, 132, 24));
-    
+    background-image:  linear-gradient(rgb(215, 40, 14),rgb(233, 132, 24));  
 }
+
+.body:hover:hover{
+  background-color: palevioletred;   
+}
+
 
 
 @font-face {
@@ -23,7 +27,7 @@ body{
 
  .date2{
 
-    font-size: 100px;
+    font-size: 80px;
     font-family: 'anilez';
     color: white;
     left: 55%;
@@ -70,8 +74,8 @@ body{
   }
 
 #Demi{
-    width: 600px;
-    height: 550px;
+    width: 500px;
+    height: 450px;
     position: absolute;
     left: 10px;
     bottom: 8px;

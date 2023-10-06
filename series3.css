@@ -1,36 +1,203 @@
 body{
     text-align: center;
+    background-color:plum;
+
 }
 
+body:hover{
+ background-color: yellow;
+    
+}
+
+@font-face {
+    font-family:'adequate';
+    src: url(Adequate-ExtraLight.ttf);
+ }
+
 .miley{
-    font-size: 50px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 90px;
+    font-family:'adequate';
     position:relative;
     text-align: center;
     top: 90px;
 }
+.miley:hover{
+color: white;
+}
 
 .date3{
-    font-size: 90px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    font-family:'adequate';
     position:relative;
     left: 25%;
     top: 90px;
 }
 
+.date3:hover{
+    color: white;
+    }
 
 .hours3{
-    font-size: 90px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-family: 'adequate';
   top: 20px;
   left: 13%;
     position: relative;
 }
 
+.hours3:hover{
+    color: white;
+    }
+
 .AA{
     font-size: 40px;
-    font-family: 'Times New Roman', Times, serif;
-bottom: 70px;
+    font-family:'adequate';
+bottom: 30px;
   left: 33%;
     position: relative;
+    transition:  900ms
+   
 }
+.AA:hover{
+    color: white;
+    }
+
+.AA:hover {
+    transform: rotate(200deg);
+}
+
+
+
+.miley{
+    height: 90px;
+    position: relative;   
+    transition:  900ms
+}
+.miley:hover {
+    transform: rotate(200deg);
+}
+
+
+
+.yellow-circle{
+    width:400px;
+    height:400px;
+    border-radius:50%;
+    background-color:rgb(255, 179, 0);
+    bottom: 50%;
+    position: relative;
+    transition: background-color 0.1s ease-in;
+  }
+  
+  .yellow-circle:hover {
+    background-color: rgb(0, 213, 255);
+  }
+  
+  .blue-circle{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    background-color:rgb(0, 8, 255);
+    position: absolute;
+    bottom:10px;
+   right:40px;
+    transition: background-color 0.1s ease-in;
+  }
+  
+  .blue-circle:hover {
+    background-color: rgb(15, 217, 15);
+  }
+
+  .green-circle{
+    width:290px;
+    height:290px;
+    border-radius:50%;
+    background-color:rgb(0, 255, 55);
+   bottom:390px;
+   right:10px;
+    position:absolute;
+    transition: background-color 0.1s ease-in;
+  }
+  
+  .green-circle:hover {
+    background-color: rgb(217, 15, 126);
+  }
+
+  .pink-circle{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    background-color:rgb(255, 0, 157);
+    position:absolute;
+    top:30px;
+    left:40px;
+    transition: background-color 0.1s ease-in;
+  }
+  
+  .pink-circle:hover {
+    background-color: rgb(217, 72, 15);
+  }
+
+  .purple-circle{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    background-color:rgb(194, 39, 221);
+    position:absolute;
+    top:60px;
+    left:200px;
+    transition: background-color 0.1s ease-in;
+  }
+  
+  .purple-circle:hover {
+    background-color: rgb(215, 237, 87);
+  }
+
+  .red-circle{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    background-color:rgb(235, 24, 24);
+    
+position: absolute;
+    bottom:10px;
+   left:40px;
+    transition: background-color 0.1s ease-in;
+  }
+  
+  .red-circle:hover {
+    background-color: rgb(242, 238, 16);
+  }
+
+
+  .stripes div{
+    width:50px;
+    height:800px;
+    display:inline-block;
+    opacity: 50%;
+    border-bottom:90%;
+
+}
+
+#ice{
+    max-width:55%;
+    max-height: 55%;
+    position: absolute;
+    left: 130px;
+    bottom: 10px;
+}
+
+.gray-circle{
+    width:90px;
+    height:90px;
+    border-radius:50%;
+    background-color:rgb(71, 113, 80);
+   bottom:200px;
+   right:40px;
+    position:absolute;
+    transition: background-color 0.1s ease-in;
+  }
+  
+  .gray-circle:hover {
+    background-color: rgb(49, 244, 228);
+  }
