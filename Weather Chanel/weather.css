@@ -1,0 +1,437 @@
+
+body{
+    text-align: center; margin: auto; 
+    background-image:url(cloudyback.png);
+    background-size: cover;
+    padding: 50px;
+}
+
+.mexico{
+    font-family: gotham;
+    font-size: 55px;
+    bottom: 490px;
+    left: 200px;
+    position: absolute;
+
+}
+
+.mexico:hover{
+    color: whitesmoke;
+}
+.time{
+    font-family: gotham;
+    font-size: 15px;
+    position: fixed;
+    right: 30px;
+    text-align: right;
+    color: rgb(21, 21, 55);
+}
+
+#sun{
+    width:70px;
+    height: 70px;
+    left: 360px;
+    top: 460px;
+    position: absolute;
+}
+
+#clo{
+    width: 90px;
+    height: 90px;
+    left: 650px;
+    top: 450px;
+    position: absolute;
+}
+
+#moon{
+    width: 60;
+height: 60px;
+margin-top: 390px;
+left:960px;
+position: absolute;
+}
+
+img:hover{
+    animation: shake 0.5s;
+  animation-iteration-count: infinite;
+  transition: 3ms;
+}
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+#clock{
+    width: 19px;
+    height: 19px;
+    margin-top: 15px;
+    right: 95px;
+    position: fixed;
+}
+
+ @keyframes horizontal-shaking {
+    0% { transform: translateX(0) }
+    25% { transform: translateX(5px) }
+    50% { transform: translateX(-5px) }
+    75% { transform: translateX(5px) }
+    100% { transform: translateX(0) }
+   }
+
+@font-face{
+    font-family:'gotham';
+    src: url(GothaProBla.otf);
+}
+
+
+.today {
+    text-decoration: none;
+    color:#0a1842;
+    position: relative;
+    font-family: gotham;
+    font-size: 30px;
+    font-family: gotham;
+    margin-top: 30px;
+  }
+  
+  .today:hover{
+    color: whitesmoke;
+  }
+
+  .today::before {
+    content: '';
+    background-color: hsla(196, 69%, 81%, 0.852);
+    position: absolute;
+    left: 0;
+    bottom: 3px;
+    width: 40%;
+    height: 8px;
+    z-index: -1;
+    transition: all .5s ease-in-out;
+    font-family:gotham;
+  }
+  
+  .today:hover::before {
+    bottom: 0;
+    height: 100%;
+  }
+.hourly {
+    text-decoration: none;
+    color: #0a1842;
+    position: relative;
+    font-family: gotham;
+    font-size: 30px;
+    font-family: gotham;
+    margin-top: 30px;
+  }
+
+  .hourly:hover{
+    color:whitesmoke;
+  }
+  
+  .hourly::before {
+    content: '';
+    background-color: hsla(196, 69%, 81%, 0.852);
+    position: absolute;
+    left: 5;
+    bottom: 3px;
+    width: 100%;
+    height: 8px;
+    z-index: -1;
+    transition: all .5s ease-in-out;
+    font-family: gotham;
+  }
+  
+  .hourly:hover::before {
+    bottom: 0;
+    height: 100%;
+  }
+
+  .weekly {
+    text-decoration: none;
+    color: #0a1842;
+    position: relative;
+    font-family: gotham;
+    font-size: 30px;
+    font-family: gotham;
+    margin-top: 30px;
+  }
+
+  .weekly:hover{
+    color: whitesmoke;
+  }
+  
+  .weekly::before {
+    content: '';
+    background-color:hsla(196, 69%, 81%, 0.852);
+    position: absolute;
+    left: 5;
+    bottom: 3px;
+    width: 100%;
+    height: 8px;
+    z-index: -1;
+    transition: all .5s ease-in-out;
+  }
+  
+  .weekly:hover::before {
+    bottom: 0;
+    height: 100%;
+  }
+
+  .monthly {
+    text-decoration: none;
+    color:#0a1842;
+    position: relative;
+    font-family: gotham;
+    font-size: 30px;
+    font-family: gotham;
+    margin-top: 30px;
+  }
+
+  .monthly:hover{
+    color: whitesmoke;
+  }
+
+  .monthly::before {
+    content: '';
+    background-color: hsla(196, 69%, 81%, 0.852);
+    position: absolute;
+    left: 5;
+    bottom: 3px;
+    width: 100%;
+    height: 8px;
+    z-index: -1;
+    transition: all .5s ease-in-out;
+  }
+  
+  .monthly:hover::before {
+    bottom: 0;
+    height: 100%;
+  }
+
+  .radar {
+    text-decoration: none;
+    color: #0a1842;
+    position: relative;
+    font-family: gotham;
+    font-size: 30px;
+    font-family: gotham;
+    margin-top: 30px;
+  }
+
+  .radar:hover{
+    color: whitesmoke;
+  }
+  
+  .radar::before {
+    content: '';
+    background-color:hsla(196, 69%, 81%, 0.852);
+    position: absolute;
+    left: 5;
+    bottom: 3px;
+    width: 100%;
+    height: 8px;
+    z-index: -1;
+    transition: all .5s ease-in-out;
+  }
+  
+  .radar:hover::before {
+    bottom: 0;
+    height: 100%;
+  }
+
+  .firstbox{
+    background-color:rgba(81, 119, 146, 0.39);
+    width:250px;
+    height:250px;
+    margin-top: 300px;
+    margin-left: 220px;
+    border-radius: 25px;
+    position: absolute;
+    z-index: -1;
+
+  }
+
+  .firstbox:hover {
+    background-color: rgba(81, 119, 146, 0.94);
+  }
+
+  .secondbox{
+    background-color:rgba(81, 119, 146, 0.39);
+    width:250px;
+    height:250px;
+    margin-top: 300px;
+    margin-left: 520px;
+    border-radius: 25px;
+    position: absolute;
+    z-index: -1;
+
+  }
+
+  .secondbox:hover{
+    background-color: rgba(81, 119, 146, 0.94);
+  }
+
+  .thirdbox{
+    background-color:rgba(81, 119, 146, 0.39);
+    width:250px;
+    height:250px;
+    margin-top: 300px;
+    margin-left: 820px;
+    border-radius: 25px;
+    position: absolute;
+    z-index: -1;
+  }
+
+  .thirdbox:hover{
+    background-color: rgba(81, 119, 146, 0.94);
+  }
+
+  .grades{
+    margin-top: 100px;
+    margin-left: 160px;
+    position: absolute;
+    font-family: gotham;
+    font-size: 35px;
+
+  }
+
+  .grades:hover{
+    color: rgb(255, 255, 255);
+  }
+
+  .cloudy{
+    margin-top: 150px;
+    margin-left: 160px;
+    position: absolute;
+    font-family: gotham;
+    font-size: 35px;
+  }
+
+.cloudy:hover{
+    color: rgb(255, 255, 255);
+}
+
+  .max{
+    margin-top: 200px;
+    margin-left: 160px;
+    position:absolute;
+    font-family: gotham;
+    font-size: 35px;
+  }
+
+  .max:hover{
+    color: rgb(255, 255, 255);
+  }
+
+  #today{
+        margin-top: 300px;
+       margin-left:280px;
+        font-family: gotham;
+        font-size: 30px;
+        color: aliceblue;  
+        position: absolute;
+  }
+
+  #today2{
+    margin-top: 300px;
+    margin-left:600px;
+     font-family: gotham;
+     font-size: 30px;
+     color: aliceblue;  
+     position: absolute;
+
+}
+
+#today3{
+    margin-top: 330px;
+       margin-left:900px;
+        font-family: gotham;
+        font-size: 30px;
+        color: aliceblue;  
+        position: absolute;
+}
+
+.hour1{
+    color: black;
+    font-size: 20px;
+    font-family: gotham;
+    bottom: 70px;
+    left: 370px;
+    position: absolute;
+}
+
+.hour1:hover{
+        animation: shake 0.6s;
+      animation-iteration-count: infinite;
+      transition: 3ms;
+}
+
+.hour2{
+    color: black;
+    font-size: 20px;
+    font-family: gotham;
+    bottom: 70px;
+    left: 670px;
+    position: absolute;
+}
+
+.hour2:hover{
+    animation: shake 0.6s;
+    animation-iteration-count: infinite;
+    transition: 3ms;
+}
+
+.hour3{
+    color: black;
+    font-size: 20px;
+    font-family: gotham;
+    bottom: 70px;
+    left: 980px;
+    position: absolute;
+}
+
+.hour3:hover{
+    animation: shake 0.6s;
+    animation-iteration-count: infinite;
+    transition: 3ms;
+}
+
+.hello{
+    display: none;
+}
+@media only screen and (max-width: 600px)
+{
+   body{
+    background-image:none;
+    background-color: yellow;
+
+
+   }
+   .grades,.cloudy,.max,.firstbox,.secondbox,.thirdbox,.time,#clock,#clo,
+   #cloudy,#today,#today2,#today3,.today,.hourly,.weekly,.monthly,.radar,.hour1,.mexico
+   {
+    display: none;
+   }
+   #sun{
+    width: 200px;
+    height: 200px;
+    left: 140px;
+    top: 430px;
+
+   }
+
+   .hello{
+    font-family: gotham;
+    font-size: 90px;
+    text-align: center;
+    display: block;
+   }
+}
