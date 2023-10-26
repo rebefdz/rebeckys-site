@@ -89,9 +89,9 @@ img{
   .boton{
     font-family: 'anilez';
     font-size: 20px;
-    position:relative;
-    right: -70%;
-    bottom: 210px;;
+    position:fixed;
+    left: 4%;
+    top: 40px;
     color:white;
   
   }

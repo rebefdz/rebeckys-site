@@ -1,8 +1,13 @@
 body {background-color: pink;}
 body {text-align: center; font-size: 50px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family:'tomato';
     color: black;
 
+}
+
+@font-face {
+    font-family:'tomato';
+    src: url(Tomato\ Juice\ 2.otf);
 }
 
 a:link {text-decoration: none;font-size: 40;color: white;}
