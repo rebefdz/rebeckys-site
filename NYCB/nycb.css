@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #dcdcdc ;
+}
+
+.logo {
+    display: flex;
+    background-color: #dcdcdc ;
+    padding: 10px;
+}
+
+.letter {
+    font-size: 60px;
+    color: #fff;
+    margin: 0 10px;
+  font-family: "arial";
+    transform-origin: bottom;
+    animation: grow 2s ease infinite;
+}
+
+#n {
+    animation-delay: 0.4s;
+    
+}
+
+#e {
+    animation-delay: 0.6s;
+}
+
+#w {
+    animation-delay: 0.9s;
+  } 
+
+#y{ animation-delay: 0.3s
+
+}
+
+#o { animation-delay: 1s
+}
+
+#r { animation-delay: 0.4s
+}
+
+#k { animation-delay: .2s
+}
+
+#c { animation-delay: 0.3s
+}
+
+#t { animation-delay: 0.7s
+}
+
+#y { animation-delay: 0.1s
+}
+
+#b { animation-delay: 0.9s
+}
+
+#a { animation-delay: 0.3s
+}
+
+#l { animation-delay: 0.3s
+}
+
+
+@keyframes grow {
+    0%, 100% {
+        transform: scaleY(1);
+    }
+    50% {
+        transform: scaleY(2);
+    }
+}
+
+#moveButton {
+  position: fixed;
+  bottom: 20px;
+  left: 50px;
+  border-radius: 10%;
+  padding: 10px;
+  background-color: pink;
+  font-family: "arial";
+}
