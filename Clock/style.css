@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "chunky";
+  src: url(Chunky\ Funks.otf);
+}
+
+#clock {
+  font-size: 17em;
+  text-align: center;
+  margin-top: 25%;
+  color: rgb(0, 0, 0);
+  font-family: "chunky";
+  text-shadow: -6px -6px #000000;
+}
+
+div {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  letter-spacing: -0.02em;
+}

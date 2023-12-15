@@ -10,3 +10,9 @@ letters.forEach(letter => {
     });
 });
 
+let n= document.getElementById("n");
+
+function doSomething(){
+n.style.animationDelay = Math.random() * 9 + "s";
+}
+
